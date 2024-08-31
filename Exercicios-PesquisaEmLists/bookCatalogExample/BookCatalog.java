@@ -20,7 +20,8 @@ public class BookCatalog {
 
     public static List<Book> findBetweenDates(int startDate, int endDate) {
         return books.stream()
-                .filter(b -> b.getPublishDate() >= startDate || b.getPublishDate() <= endDate)
+                .filter(b -> b.getPublishDate() >= startDate)
+                .filter(b -> b.getPublishDate() <= endDate)
                 .collect(Collectors.toList());
     }
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desafios-de-projeto/AbstraindoIphone/AbstraindoIphone.iml" filepath="$PROJECT_DIR$/Desafios-de-projeto/AbstraindoIphone/AbstraindoIphone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafios-de-projeto/ContaBanco/ContaBanco.iml" filepath="$PROJECT_DIR$/Desafios-de-projeto/ContaBanco/ContaBanco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafios-de-projeto/ControleDeFluxo/ControleDeFluxo.iml" filepath="$PROJECT_DIR$/Desafios-de-projeto/ControleDeFluxo/ControleDeFluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dio-trilha-java-basico.iml" filepath="$PROJECT_DIR$/dio-trilha-java-basico.iml" />
+    </modules>
+  </component>
+</project>

@@ -26,11 +26,4 @@ public class Item {
     public String toString(){
         return "Item: Name: %s;\nPrice: %s;\nQuantity: %d\n".formatted(name, price, quantity);
     }
-
-    public  boolean equals(Object o) {
-        if (this == o) return true; // Veriricação de identidade, os dois objetos são o mesmo na memória
-        if (o == null || this.getClass() != o.getClass()) return false; // Compara nulidade e classe
-        Item item = (Item) o; // Converte o objeto para Item
-        return this.name.equals(item.name) && this.price == item.price && this.quantity == item.quantity; // Compara os valores dos atributos
-    }
 }
