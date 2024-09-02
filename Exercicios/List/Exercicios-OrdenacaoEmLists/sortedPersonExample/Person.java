@@ -31,4 +31,3 @@ public class Person implements Comparable<Person> {
         return "Person: [Name: %s, Age: %d, Height: %.2f]".formatted(name, age, height);
     }
 }
-
