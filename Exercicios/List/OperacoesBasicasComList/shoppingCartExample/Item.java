@@ -1,4 +1,4 @@
-package entities.basicOperationsWithList.shoppingCartExample;
+package List.OperacoesBasicasComList.shoppingCartExample;
 
 public class Item {
     private final String name;

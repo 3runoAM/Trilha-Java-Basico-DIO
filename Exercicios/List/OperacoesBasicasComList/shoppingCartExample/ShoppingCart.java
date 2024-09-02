@@ -1,4 +1,4 @@
-package entities.basicOperationsWithList.shoppingCartExample;
+package List.OperacoesBasicasComList.shoppingCartExample;
 
 import java.util.ArrayList;
 import java.util.List;

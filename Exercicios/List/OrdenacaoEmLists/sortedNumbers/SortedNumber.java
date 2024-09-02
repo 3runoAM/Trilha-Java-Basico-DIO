@@ -1,4 +1,4 @@
-package sortingInList.sortedNumbers;
+package List.OrdenacaoEmLists.sortedNumbers;
 
 import java.util.ArrayList;
 import java.util.Collections;

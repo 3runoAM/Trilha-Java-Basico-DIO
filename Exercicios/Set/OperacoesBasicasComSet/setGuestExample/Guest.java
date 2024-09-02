@@ -1,4 +1,6 @@
-package setGuestExample;
+package Set.OperacoesBasicasComSet.setGuestExample;
+
+import java.util.Objects;
 
 public class Guest {
     private String name;
@@ -15,6 +17,19 @@ public class Guest {
 
     public int getInvitationCode() {
         return invitationCode;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Guest guest = (Guest) o;
+        return getInvitationCode() == guest.getInvitationCode();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(getInvitationCode());
     }
 
     public String toString() {

@@ -1,5 +1,4 @@
-package findInList.sumOfNumbers;
-
+package List.PesquisaEmLists.sumOfNumbers;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;

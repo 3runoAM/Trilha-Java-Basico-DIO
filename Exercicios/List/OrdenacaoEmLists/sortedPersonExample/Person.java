@@ -1,4 +1,4 @@
-package sortingInList.sortedPersonExample;
+package List.OrdenacaoEmLists.sortedPersonExample;
 
 public class Person implements Comparable<Person> {
     private final String name;

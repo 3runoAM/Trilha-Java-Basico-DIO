@@ -1,4 +1,4 @@
-package OrdenacaoComSet.ProductRegistrationExample;
+package Set.OrdenacaoComSet.ProductRegistrationExample;
 
 import java.util.Comparator;
 import java.util.HashSet;

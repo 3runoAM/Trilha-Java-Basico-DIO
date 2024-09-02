@@ -1,4 +1,4 @@
-package setUniqWordsExample;
+package  Set.OperacoesBasicasComSet.setUniqWordsExample;
 
 import java.util.HashSet;
 import java.util.Set;

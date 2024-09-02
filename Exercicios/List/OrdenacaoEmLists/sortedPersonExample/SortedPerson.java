@@ -1,4 +1,4 @@
-package sortingInList.sortedPersonExample;
+package List.OrdenacaoEmLists.sortedPersonExample;
 
 import java.util.*;
 import java.util.stream.Collectors;

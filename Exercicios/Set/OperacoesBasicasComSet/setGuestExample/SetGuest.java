@@ -1,4 +1,4 @@
-package setGuestExample;
+package Set.OperacoesBasicasComSet.setGuestExample;
 
 import java.util.HashSet;
 import java.util.Set;

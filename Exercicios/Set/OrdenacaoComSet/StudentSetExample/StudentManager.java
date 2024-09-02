@@ -1,4 +1,4 @@
-package OrdenacaoComSet.StudentSetExample;
+package Set.OrdenacaoComSet.StudentSetExample;
 
 import java.util.Comparator;
 import java.util.HashSet;

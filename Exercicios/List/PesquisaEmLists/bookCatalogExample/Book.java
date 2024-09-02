@@ -1,4 +1,4 @@
-package findInList.bookCatalogExample;
+package List.PesquisaEmLists.bookCatalogExample;
 
 public class Book {
     private final String title;

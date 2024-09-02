@@ -1,4 +1,4 @@
-package entities.basicOperationsWithList.taskListExample;
+package List.OperacoesBasicasComList.taskListExample;
 
 public class Task {
     private final String description;

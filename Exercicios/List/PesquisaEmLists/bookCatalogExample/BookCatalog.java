@@ -1,4 +1,4 @@
-package findInList.bookCatalogExample;
+package List.PesquisaEmLists.bookCatalogExample;
 
 import java.util.ArrayList;
 import java.util.List;

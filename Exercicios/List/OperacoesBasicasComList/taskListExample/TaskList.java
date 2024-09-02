@@ -1,4 +1,4 @@
-package entities.basicOperationsWithList.taskListExample;
+package List.OperacoesBasicasComList.taskListExample;
 
 import java.util.ArrayList;
 import java.util.List;
