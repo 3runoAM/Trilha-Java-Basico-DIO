@@ -10,7 +10,7 @@ public class Client {
     private final String cpf;
     private final String address;
     private final int phone;
-    private TransationAccount transationAccount;
+    private TransationAccount transactionAccount;
     private SavingAccount savingAccount;
 
     public Client(String name, String cpf, String address, int phone) {
@@ -36,12 +36,20 @@ public class Client {
         return phone;
     }
 
-    public TransationAccount getTransationAccount() {
-        return transationAccount;
+    public TransationAccount getTransactionAccount() {
+        return transactionAccount;
     }
 
     public SavingAccount getSavingAccount() {
         return savingAccount;
+    }
+
+    protected void setTransactionAccount(TransationAccount transactionAccount) {
+        this.transactionAccount = transactionAccount;
+    }
+
+    protected void setSavingAccount(SavingAccount savingAccount) {
+        this.savingAccount = savingAccount;
     }
 
     public String toString() {

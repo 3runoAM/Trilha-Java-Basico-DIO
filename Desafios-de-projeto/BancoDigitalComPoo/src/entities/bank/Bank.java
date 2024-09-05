@@ -1,6 +1,8 @@
 package entities.bank;
 
 import entities.bank.account.Account;
+import entities.bank.account.SavingAccount;
+import entities.bank.account.TransationAccount;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,5 +49,21 @@ public class Bank {
         return accounts.stream()
                 .filter(a -> a.getAccountNumber() == accountNumber)
                 .findFirst();
+    }
+
+    public boolean setSavingAccount(SavingAccount account, Client client) {
+        if (client.getSavingAccount() == null) {
+            client.setSavingAccount(account);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean setTransactionAccount(TransationAccount account, Client client) {
+        if (client.getTransactionAccount()== null) {
+            client.setTransactionAccount(account);
+            return true;
+        }
+        return false;
     }
 }
